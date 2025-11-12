@@ -45,13 +45,13 @@
         compatible = "zmk,combos";
 
         en_dot {
-            bindings = <&kp KP_DOT>;
+            bindings = <&kp DOT>;
             key-positions = <6 7>;
             layers = <0>;
         };
 
         en_comma {
-            bindings = <&kp KP_COMMA>;
+            bindings = <&kp COMMA>;
             key-positions = <7 8>;
             layers = <0>;
         };
