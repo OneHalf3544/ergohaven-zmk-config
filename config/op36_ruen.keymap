@@ -44,16 +44,16 @@
     combos {
         compatible = "zmk,combos";
 
-        dot {
+        en_dot {
             bindings = <&kp KP_DOT>;
             key-positions = <6 7>;
-            layers = <0 1>;
+            layers = <0>;
         };
 
-        comma {
+        en_comma {
             bindings = <&kp KP_COMMA>;
             key-positions = <7 8>;
-            layers = <0 1>;
+            layers = <0>;
         };
 
         cmben {
@@ -77,6 +77,18 @@
         hrdsgn {
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
             key-positions = <27 28>;
+            layers = <1>;
+        };
+
+        ru_dot {
+            bindings = <&kp RU_DOT>;
+            key-positions = <6 7>;
+            layers = <1>;
+        };
+
+        ru_comma {
+            bindings = <&kp RU_COMMA>;
+            key-positions = <7 8>;
             layers = <1>;
         };
     };
