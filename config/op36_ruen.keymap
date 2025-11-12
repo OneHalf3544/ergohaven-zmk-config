@@ -147,6 +147,13 @@
             wait-ms = <0>;
             tap-ms = <30>;
         };
+
+        lang_switch: lang_switch {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&tog 1 &kp LG(SPACE)>;
+            label = "LANG_SWITCH";
+        };
     };
 
     keymap {
@@ -198,10 +205,10 @@
 
         nav {
             bindings = <
-  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                           &kp N6           &kp N7           &kp N8           &kp N9        &kp N0
-  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &mkp LCLK                        &kp PRINTSCREEN  &hmr RCTRL LEFT  &hmr RSHFT DOWN  &hmr LALT UP  &hmr RGUI RIGHT
-  &layer_en      &kp HOME  &kp INS    &kp END    &mkp RCLK                        &kp CAPS         &none            &kp PG_DN        &kp PG_UP     &layer_ru
-                                      &trans     &none      &trans    &kp DELETE  &mo 5            &trans
+  &kp N1         &kp N2    &kp N3        &kp N4     &kp N5                           &kp N6           &kp N7           &kp N8           &kp N9        &kp N0
+  &hml LGUI ESC  &kp LALT  &kp LSHFT     &kp LCTRL  &mkp LCLK                        &kp PRINTSCREEN  &hmr RCTRL LEFT  &hmr RSHFT DOWN  &hmr LALT UP  &hmr RGUI RIGHT
+  &layer_en      &kp HOME  &lang_switch  &kp END    &mkp RCLK                        &kp CAPS         &kp INS          &kp PG_DN        &kp PG_UP     &layer_ru
+                                         &trans     &none      &trans    &kp DELETE  &mo 5            &trans
             >;
 
             display-name = "Navigation";
