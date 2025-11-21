@@ -161,10 +161,10 @@
 
         en {
             bindings = <
-  &kp Q        &kp W        &kp F         &kp P          &kp B                          &kp J  &kp L         &kp U         &kp Y        &kp SEMICOLON
-  &hml LGUI A  &hml LALT R  &hml LSHFT S  &hml LCTRL T   &kp G                          &kp M  &hmr RCTRL N  &hmr RSHFT E  &hmr LALT I  &hmr RGUI O
-  &kp Z        &kp X        &kp C         &kp D          &kp V                          &kp K  &kp H         &kp COMMA     &kp DOT      &kp SQT
-                                          &kp BACKSPACE  &mo 4  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
+  &kp Q        &kp W        &kp F         &kp P         &kp B                          &kp J  &kp L         &kp U         &kp Y        &kp SEMICOLON
+  &hml LGUI A  &hml LALT R  &hml LSHFT S  &hml LCTRL T  &kp G                          &kp M  &hmr RCTRL N  &hmr RSHFT E  &hmr LALT I  &hmr RGUI O
+  &kp Z        &kp X        &kp C         &kp D         &kp V                          &kp K  &kp H         &kp COMMA     &kp DOT      &kp SQT
+                                          &mo 6         &mo 4  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
             >;
 
             display-name = "Base";
@@ -223,6 +223,15 @@
             >;
 
             display-name = "Adjust";
+        };
+
+        nav_2 {
+            bindings = <
+  &trans  &kp HOME            &kp UP_ARROW    &kp END              &trans                    &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+  &trans  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans                    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
+  &trans  &kp LA(LEFT_ARROW)  &trans          &kp LA(RIGHT_ARROW)  &trans                    &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+                                              &trans               &trans  &trans    &trans  &trans  &trans
+            >;
         };
     };
 };
