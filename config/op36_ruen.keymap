@@ -206,9 +206,9 @@
         nav_2 {
             bindings = <
   &kp TAB     &kp HOME            &kp UP_ARROW    &kp END              &trans                       &kp PAGE_UP           &kp NUMBER_7                 &kp NUMBER_8               &kp NUMBER_9             &trans
-  &caps_word  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &mkp LCLK                    &kp PAGE_DOWN         &hmr RIGHT_CONTROL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT NUMBER_6  &hmr RIGHT_GUI NUMBER_0
-  &trans      &kp LA(LEFT_ARROW)  &lang_switch    &kp LA(RIGHT_ARROW)  &mkp RCLK                    &kp LS(LG(NUMBER_5))  &kp NUMBER_1                 &kp NUMBER_2               &kp NUMBER_3             &kp KP_DOT
-                                                  &trans               &trans     &trans    &trans  &trans                &trans
+  &kp ESCAPE  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &mkp LCLK                    &kp PAGE_DOWN         &hmr RIGHT_CONTROL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT NUMBER_6  &hmr RIGHT_GUI NUMBER_0
+  &caps_word  &kp LA(LEFT_ARROW)  &lang_switch    &kp LA(RIGHT_ARROW)  &mkp RCLK                    &kp LS(LG(NUMBER_5))  &kp NUMBER_1                 &kp NUMBER_2               &kp NUMBER_3             &kp KP_DOT
+                                                  &trans               &trans     &trans    &trans  &mo 6                 &trans
             >;
         };
 
