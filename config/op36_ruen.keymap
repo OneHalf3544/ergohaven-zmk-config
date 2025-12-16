@@ -185,7 +185,7 @@
             bindings = <
   &kp QUESTION    &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                           &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &kp DLLR
   &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                            &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &kp AMPS                            &kp AT     &kp PIPE         &kp TILDE        &kp AMPS        &kp QMARK
+  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &kp AMPS                            &kp AT     &kp PIPE         &kp TILDE        &kp AMPS        &kp APOSTROPHE
                                                     &trans           &mo 6      &kp BACKSPACE    &trans  &none      &trans
             >;
 
@@ -194,9 +194,9 @@
 
         sym_ru {
             bindings = <
-  &en RU_QUESTION         &en LT          &kp EQUAL         &en GT           &en GRAVE                           &en CARET  &en LBKT  &kp UNDER           &en RBKT  &en DLLR
+  &kp RU_QUESTION         &en LT          &kp EQUAL         &en GT           &en GRAVE                           &en CARET  &en LBKT  &kp UNDER           &en RBKT  &en DLLR
   &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                            &kp PRCNT  &en LBRC  &hmr RSHFT RU_SEMI  &en RBRC  &hmr RGUI EXCL
-  &en HASH                &kp STAR        &kp RU_COLON      &kp RU_FSLH      &en AMPS                            &en AT     &en PIPE  &kp TILDE           &kp AMPS  &kp RU_QMARK
+  &en HASH                &kp STAR        &kp RU_COLON      &kp RU_FSLH      &en AMPS                            &en AT     &en PIPE  &kp TILDE           &kp AMPS  &en APOSTROPHE
                                                             &trans           &mo 6      &kp BACKSPACE    &trans  &none      &trans
             >;
 
@@ -214,10 +214,10 @@
 
         nav {
             bindings = <
-  &kp N1         &kp N2    &kp N3        &kp N4     &kp N5                           &kp N6         &kp N7           &kp N8           &kp N9        &kp N0
-  &hml LGUI ESC  &kp LALT  &kp LSHFT     &kp LCTRL  &mkp LCLK                        &kp PAGE_UP    &hmr RCTRL LEFT  &hmr RSHFT DOWN  &hmr LALT UP  &hmr RGUI RIGHT
-  &layer_en      &kp HOME  &lang_switch  &kp END    &mkp RCLK                        &kp PAGE_DOWN  &msc SCRL_DOWN   &msc SCRL_UP     &kp PG_UP     &layer_ru
-                                         &trans     &none      &trans    &kp DELETE  &mo 6          &trans
+  &kp N1         &kp N2    &kp N3        &kp N4     &kp N5                           &kp N6          &kp N7           &kp N8           &kp N9           &kp N0
+  &hml LGUI ESC  &kp LALT  &kp LSHFT     &kp LCTRL  &mkp LCLK                        &trans          &hmr RCTRL LEFT  &hmr RSHFT DOWN  &hmr LALT UP     &hmr RGUI RIGHT
+  &layer_en      &kp HOME  &lang_switch  &kp END    &mkp RCLK                        &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_UP     &msc SCRL_RIGHT  &layer_ru
+                                         &trans     &none      &trans    &kp DELETE  &mo 6           &trans
             >;
 
             display-name = "Navigation";
