@@ -225,10 +225,10 @@
 
         adj {
             bindings = <
-  &kp F1                &kp F2            &kp F3         &kp F4        &bootloader                    &bt BT_SEL 0  &bt BT_SEL 1             &bt BT_SEL 2       &bt BT_SEL 3        &bt BT_CLR
-  &hml LEFT_CONTROL F5  &hml LEFT_ALT F6  &hml LSHFT F7  &hml LGUI F8  &trans                         &out OUT_BLE  &hmr RIGHT_GUI C_VOL_DN  &hmr RSHFT C_MUTE  &hmr LALT C_VOL_UP  &kp RIGHT_CONTROL
-  &kp F9                &kp F10           &kp F11        &kp F12       &trans                         &out OUT_USB  &kp C_PREV               &kp C_PP           &kp C_NEXT          &studio_unlock
-                                                         &trans        &trans       &trans    &trans  &trans        &trans
+  &kp F1                &kp F2            &kp F3         &kp F4        &bootloader                    &bt BT_SEL 0    &bt BT_SEL 1             &bt BT_SEL 2       &bt BT_SEL 3        &bt BT_CLR
+  &hml LEFT_CONTROL F5  &hml LEFT_ALT F6  &hml LSHFT F7  &hml LGUI F8  &trans                         &out OUT_BLE    &hmr RIGHT_GUI C_VOL_DN  &hmr RSHFT C_MUTE  &hmr LALT C_VOL_UP  &kp RIGHT_CONTROL
+  &kp F9                &kp F10           &kp F11        &kp F12       &trans                         &msc SCRL_LEFT  &msc SCRL_DOWN           &msc SCRL_UP       &msc SCRL_RIGHT     &studio_unlock
+                                                         &trans        &trans       &trans    &trans  &trans          &trans
             >;
 
             display-name = "Adjust";
