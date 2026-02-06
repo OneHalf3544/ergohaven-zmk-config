@@ -58,13 +58,13 @@
 
         cmben {
             bindings = <&layer_en>;
-            key-positions = <2 3>;
+            key-positions = <4 3>;
             layers = <1>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <2 3>;
+            key-positions = <4 3>;
             layers = <0>;
         };
 
@@ -94,7 +94,7 @@
 
         ru_yo {
             bindings = <&kp RU_CYRILLIC_IO>;
-            key-positions = <4 3>;
+            key-positions = <3 2>;
             layers = <1>;
         };
     };
