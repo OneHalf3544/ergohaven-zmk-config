@@ -226,7 +226,7 @@
                                             &trans          &none      &trans    &kp DELETE  &mo 6         &trans
             >;
 
-            display-name = "Navigation";
+            display-name = "Nav";
         };
 
         adj {
